@@ -1,0 +1,38 @@
+.search-container, #registerForm {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#searchButton {
+    margin-left: 10px;
+}
+
+#searchResults {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type="text"], input[type="password"] {
+    margin-bottom: 10px; 
+}
+
+button[type="submit"] {
+    margin-top: 10px; 
+}
