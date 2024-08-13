@@ -1,8 +1,5 @@
-const compositions = [
-    { id: 1, title: "Alphaville - Forever Young", file: "music/Alphaville - Forever Young.mp3" },
-    { id: 2, title: "Aaron Smith - Dancin", file: "music/Aaron Smith - Dancin.mp3" },
-    { id: 3, title: "Mazzy Star - Fade Into You", file: "music/Mazzy Star - Fade Into You.mp3" },
-];
+const response = await fetch('api/songs-list.json');
+const compositions = await response.json();
 
 document.getElementById('searchButton').addEventListener('click', function() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
@@ -20,6 +17,6 @@ document.getElementById('searchButton').addEventListener('click', function() {
             </div>
         `).join('');
     } else {
-        resultsContainer.innerHTML = '<div>Композицію не знайдено</div>';
+        resultsContainer.innerHTML = '<div>No composition found</div>';
     }
 });

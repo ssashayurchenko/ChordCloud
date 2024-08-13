@@ -7,34 +7,37 @@
   </head>
   <body>
     <section>
-      <img
-        class="header__site-logo"
-        src="img/global/site-logo.png"
-        width="100px"
-      />
-      <h1 class="header__title">Chord Cloud</h1>
-      <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Type to search...">
-        <button id="searchButton">Search</button>
-    </div>
-    <div id="searchResults"></div>
-      <button id="btn">Log in</button>
+      <div class="logo-container">
+        <img
+          class="header__site-logo"
+          src="img/global/site-logo.png"
+          width="100px"
+        />
+        <h1 class="header__title">Chord Cloud</h1>
+      </div>
+      <div id="mainContent">
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Type to search..." />
+          <button id="searchButton">Search</button>
+        </div>
+        <div id="searchResults"></div>
+      </div>
 
       <form id="registerForm" action="/register" method="POST">
         <input
           type="text"
           name="login"
-          pattern="\w*(-.)*\@\w+\.com\g"
           placeholder="Login"
           required
         />
+        <div id="loginCheck"></div>
         <input
           type="password"
           name="password"
-          pattern="\w*(@!#$?.)*\s*\g"
-          placeholder="Password"
+          placeholder="Password" 
           required
         />
+        <div id="passwordCheck"></div>
         <button type="submit">Register</button>
       </form>
     </section>

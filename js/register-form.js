@@ -6,17 +6,26 @@ registerForm.addEventListener("submit", function (event) {
   let login = event.target.elements.login.value;
   let password = event.target.elements.password.value;
 
-  if (password.length < 5) {
-    console.log("Your password must contain at least 5 characters.");
-  }
-  if (!login.includes(".com")) {
-    console.log("Your login must contain the ending '.com'");
-  }
-  if (!login.includes("@")) {
-    console.log("Your login must contain '@'");
+  const loginContainer = document.getElementById("loginCheck");
+  const passwordContainer = document.getElementById("passwordCheck");
+
+  loginContainer.innerHTML = "";
+  passwordContainer.innerHTML = "";
+
+  const loginPattern = /^[a-z]+([.-][a-z]+)*@[a-z]+\.[a-z]{2,}$/;
+  const passwordPattern = /\w+[0-9]+[@!#$?]/;
+
+  if (!loginPattern.test(login)) {
+    loginContainer.innerHTML =
+      "<div>Your login is invalid. It should be in the format: example@domain.example</div>";
+  } else if (!passwordPattern.test(password)) {
+    passwordContainer.innerHTML = `
+        <div>
+    Your password is invalid. 
+    It should include at least: one letter, one number, and one special character (@!#$?).
+    </div>`;
   } else {
-    console.log("Form was submitted");
-    console.log(login);
-    console.log(password);
+    document.getElementById("registerForm").style.display = "none";
+    document.getElementById("mainContent").style.display = "block";
   }
 });
