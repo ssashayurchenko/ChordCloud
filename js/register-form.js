@@ -12,18 +12,19 @@ registerForm.addEventListener("submit", function (event) {
   loginContainer.innerHTML = "";
   passwordContainer.innerHTML = "";
 
-  const loginPattern = /^[a-z]+([.-][a-z]+)*@[a-z]+\.[a-z]{2,}$/;
-  const passwordPattern = /\w+[0-9]+[@!#$?]/;
+  const loginPattern = /^[a-z0-9]+([.-][a-z0-9]+)*@[a-z]+\.[a-z]{2,}$/;
+  const passwordPattern =
+    /^(?=.*[A-Za-z])(?=.*\d)(?=.*[-@!#$?])[A-Za-z\d-@!#$?]+$/;
 
   if (!loginPattern.test(login)) {
     loginContainer.innerHTML =
       "<div>Your login is invalid. It should be in the format: example@domain.example</div>";
   } else if (!passwordPattern.test(password)) {
     passwordContainer.innerHTML = `
-        <div>
-    Your password is invalid. 
-    It should include at least: one letter, one number, and one special character (@!#$?).
-    </div>`;
+              <div>
+                  Your password is invalid. 
+                  It should include at least: one letter, one number, and one special character (@!#$?).
+              </div>`;
   } else {
     document.getElementById("registerForm").style.display = "none";
     document.getElementById("mainContent").style.display = "block";
