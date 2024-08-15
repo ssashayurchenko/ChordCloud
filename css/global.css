@@ -3,6 +3,12 @@
 :root {
   --font-family-main: "Source Code Pro", monospace;
   --logo-color: #666D7F;
+  --main-white-color: #ffffff;
+  --input-data-check: #a52a2a;
+  --border-color: #ccc;
+  --button-main-color: #5C6271;
+  --hover-color: #363D4E;
+  --navigation-bg-color: #9da0a9;
 }
 
 * {

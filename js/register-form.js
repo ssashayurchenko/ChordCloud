@@ -1,5 +1,4 @@
-let registerForm = document.querySelector("#registerForm");
-
+import { closeModal } from "./modal-window.js";
 registerForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
@@ -21,12 +20,15 @@ registerForm.addEventListener("submit", function (event) {
       "<div>Your login is invalid. It should be in the format: example@domain.example</div>";
   } else if (!passwordPattern.test(password)) {
     passwordContainer.innerHTML = `
-              <div>
-                  Your password is invalid. 
-                  It should include at least: one letter, one number, and one special character (@!#$?).
-              </div>`;
+            <div>
+                Your password is invalid. 
+                It should include at least: one letter, one number, and one special character (@!#$?).
+            </div>`;
   } else {
-    document.getElementById("registerForm").style.display = "none";
-    document.getElementById("mainContent").style.display = "block";
+    closeModal();
+    alert(`
+      Registration successful! 
+      Start exploring and enjoying your favorite music now!`);
+    registerForm.reset();
   }
 });
