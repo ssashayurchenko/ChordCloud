@@ -3,7 +3,8 @@ function init() {
   import("./register-form.js");
   import("./modal-window.js")
   import("../myformproject/server.js");
-  import("./navigation.js");
+  import("./burger-menu.js");
+  import("./music-navigation.js")
 }
 
 const totalPartials = document.querySelectorAll(

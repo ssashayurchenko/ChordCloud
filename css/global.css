@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Signika+Negative:wght@300..700&display=swap");
 
 :root {
   --font-family-main: "Source Code Pro", monospace;
-  --logo-color: #666D7F;
+  --font-family-second: "Open Sans", sans-serif;
+  --main-bg-color: #e8ebef;
+  --logo-color: #666d7f;
   --main-white-color: #ffffff;
   --input-data-check: #a52a2a;
   --border-color: #ccc;
-  --button-main-color: #5C6271;
-  --hover-color: #363D4E;
+  --button-main-color: #5c6271;
+  --hover-color: #363d4e;
   --navigation-bg-color: #9da0a9;
 }
 
@@ -38,6 +41,6 @@ a {
   text-decoration: none;
 }
 
-body{
-  background: url("/img/global/registration-form-bg.png");
+body {
+  background-color: var(--main-bg-color);
 }

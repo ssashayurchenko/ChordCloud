@@ -19,6 +19,7 @@
 }
 
 #searchResults {
+  font-family: var(--font-family-second);
   padding-top: 150px;
   justify-content: flex-start;
   margin-left: clamp(5px, 10vw, 200px);
