@@ -1,10 +1,8 @@
-var modal = document.getElementById("myModal");
+const modal = document.getElementById("myModal");
 
-var btn = document.getElementById("openModal");
+const btn = document.getElementById("openModal");
 
-var span = document.getElementsByClassName("close")[0];
-
-let registerForm = document.querySelector("#registerForm");
+const span = document.getElementsByClassName("close")[0];
 
 function closeModal() {
   modal.style.display = "none";

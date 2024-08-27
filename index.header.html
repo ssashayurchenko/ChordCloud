@@ -19,6 +19,8 @@
           <div class="modal-content">
             <span class="close">&times;</span>
             <form id="registerForm" action="/register" method="POST">
+              <input type="text" id="userName" name="name" placeholder="Name" />
+              <div id="userNameCheck"></div>
               <input type="text" name="login" placeholder="Login" required />
               <div id="loginCheck"></div>
               <input
@@ -34,6 +36,8 @@
         </div>
       </div>
 
+      <div id="userNameContainer"></div>
+
       <div class="navigation-container">
         <section class="header__nav">
           <button class="menu__btn" id="burger-menu">
@@ -43,9 +47,7 @@
           </button>
           <nav>
             <ul class="header__nav-list">
-              <li>
-                <a class="header__nav-list-link" title="All">All</a>
-              </li>
+              <li><a class="header__nav-list-link" title="All">All</a></li>
               <li>
                 <a class="header__nav-list-link" title="Popular">Popular</a>
               </li>

@@ -19,22 +19,6 @@
   margin-left: 10px;
 }
 
-#openModal {
-  font-size: clamp(10px, 5vw, 16px);
-  padding: clamp(5px, 1vw, 10px) clamp(16px, 1vw, 20px);
-  background-color: var(--button-main-color);
-  color: var(--main-white-color);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  position: absolute;
-  top: 65px;
-  margin-left: clamp(5px, 10vw, 200px);
-}
-#openModal:hover {
-  background-color: var(--hover-color);
-}
-
 #registerForm {
   display: flex;
   flex-direction: column;
@@ -73,6 +57,7 @@ button:hover {
   background-color: var(--hover-color);
 }
 
+#userNameCheck,
 #loginCheck,
 #passwordCheck {
   color: var(--input-data-check);
