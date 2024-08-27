@@ -84,114 +84,22 @@
         "title": "Supergirl",
         "artist": "Anna Naklab & Younotus feat. Alle Farben",
         "file": "music-content/compositions/supergirl.mp3"
-      },
-      {
-        "id": 15,
-        "title": "I Wanna Be Yours",
-        "artist": "Arctic Monkeys",
-        "file": "music-content/compositions/i-wanna-be-yours.mp3"
-      },
-      {
-        "id": 16,
-        "title": "I Love You",
-        "artist": "DJ Sava feat. Irina Rimes",
-        "file": "music-content/compositions/i-loved-you.mp3"
-      }
-    ]
-  },
-  {
-    "Popular": [
-      {
-        "id": 1,
-        "title": "Forever Young",
-        "artist": "Alphaville",
-        "file": "music-content/compositions/forever-young.mp3"
-      },
-      {
-        "id": 2,
-        "title": "Dancin",
-        "artist": "Aaron Smith",
-        "file": "music-content/compositions/dancing.mp3"
       }
     ]
   },
   {
     "Pop": [
       {
-        "id": 3,
-        "title": "Fade Into You",
-        "artist": "Mazzy Star",
-        "file": "music-content/compositions/fade-into-you.mp3"
+        "id": 17,
+        "title": "Forever Young",
+        "artist": "Alphaville",
+        "file": "music-content/compositions/forever-young.mp3"
       },
       {
-        "id": 4,
-        "title": "Lights",
-        "artist": "Ellie Goulding",
-        "file": "music-content/compositions/lights.mp3"
-      }
-    ]
-  },
-  {
-    "Indie": [
-      {
-        "id": 5,
-        "title": "Mary On A Cross",
-        "artist": "Ghost",
-        "file": "music-content/compositions/mary-on-a-cross.mp3"
-      },
-      {
-        "id": 6,
-        "title": "Maps",
-        "artist": "Maroon 5",
-        "file": "music-content/compositions/maps.mp3"
-      }
-    ]
-  },
-  {
-    "Country": [
-      {
-        "id": 7,
-        "title": "Counting Stars",
-        "artist": "OneRepublic",
-        "file": "music-content/compositions/counting-stars.mp3"
-      },
-      {
-        "id": 8,
-        "title": "I Follow Rivers",
-        "artist": "Lykke Li",
-        "file": "music-content/compositions/i-follow-rivers.mp3"
-      }
-    ]
-  },
-  {
-    "R&B": [
-      {
-        "id": 9,
-        "title": "Take Me To Church",
-        "artist": "Hozier",
-        "file": "music-content/compositions/take-me-to-church.mp3"
-      },
-      {
-        "id": 10,
-        "title": "As It Was",
-        "artist": "Harry Styles",
-        "file": "music-content/compositions/as-it-was.mp3"
-      }
-    ]
-  },
-  {
-    "Jazz": [
-      {
-        "id": 11,
-        "title": "Ocean Drive",
-        "artist": "Duke Dumont",
-        "file": "music-content/compositions/ocean-drive.mp3"
-      },
-      {
-        "id": 12,
-        "title": "The Night We Met",
-        "artist": "Lord Huron",
-        "file": "music-content/compositions/the-night-we-met.mp3"
+        "id": 18,
+        "title": "Dancin",
+        "artist": "Aaron Smith",
+        "file": "music-content/compositions/dancing.mp3"
       }
     ]
   }

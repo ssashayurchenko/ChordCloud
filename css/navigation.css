@@ -49,6 +49,9 @@
     left: 15%;
   }
 }
+.header__nav.open {
+  overflow: auto;
+}
 .header__nav.open .header__nav-list {
   display: block;
   position: fixed;
@@ -111,12 +114,4 @@
 
 .header__nav.open .menu__btn span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
-}
-
-.header__nav.open {
-  overflow: hidden;
-}
-html.no-scroll,
-body.no-scroll {
-  overflow: hidden;
 }

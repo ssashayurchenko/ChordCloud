@@ -21,7 +21,9 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* Переконайтеся, що прокрутка дозволена */
 }
 
 .container {

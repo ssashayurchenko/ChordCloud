@@ -1,10 +1,16 @@
+import { initializePagination } from "./pagination.js";
+import { setupPlayPauseListeners } from "./togglePlayPause.js";
+
 async function loadCompositions() {
   const response = await fetch("api/songs-list.json");
   const data = await response.json();
 
   const compositions = data.find((category) => category.All).All;
 
-  displayCompositions(compositions);
+  displayItems(compositions);
+  setupPlayPauseListeners();
+
+  initializePagination(compositions);
 
   document
     .getElementById("searchButton")
@@ -22,33 +28,26 @@ async function loadCompositions() {
     });
 }
 
-function displayCompositions(compositionsToDisplay) {
+function displayItems(itemsToDisplay, startIndex = 0) {
   const resultsContainer = document.getElementById("searchResults");
-  resultsContainer.innerHTML = compositionsToDisplay
+  resultsContainer.innerHTML = itemsToDisplay
     .map(
-      (result, index) => `
-          <div class="composition-item" data-index="${index}"> 
-              <div class="composition-info">
-                  <p class="music-title">${result.title}</p>
-                  <p class="music-artist">${result.artist}</p>
-              </div>
-              <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${index}">
-              <audio class="music-player" id="player-${index}">
-                  <source src="${result.file}" type="audio/mpeg">
-                  Your browser does not support the audio element.
-              </audio>
+      (result, index) =>
+        `<div class="composition-item" data-index="${startIndex + index}"> 
+          <div class="composition-info">
+              <p class="music-title">${result.title}</p>
+              <p class="music-artist">${result.artist}</p>
           </div>
-      `
+          <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${
+            startIndex + index
+          }">
+          <audio class="music-player" id="player-${startIndex + index}">
+              <source src="${result.file}" type="audio/mpeg">
+              Your browser does not support the audio element.
+          </audio>
+      </div>`
     )
     .join("");
-
-  const playIcons = document.querySelectorAll(".play-icon");
-  playIcons.forEach((icon) => {
-    icon.addEventListener("click", function () {
-      const index = this.getAttribute("data-index");
-      togglePlayPause(index);
-    });
-  });
 }
 
 function search(compositions) {
@@ -67,32 +66,12 @@ function search(compositions) {
   );
 
   if (results.length > 0) {
-    displayCompositions(results);
+    displayItems(results);
   } else {
     resultsContainer.innerHTML = "<div>No composition found</div>";
   }
 }
 
-function togglePlayPause(index) {
-  const player = document.getElementById(`player-${index}`);
-  const playIcon = document.querySelector(`.play-icon[data-index="${index}"]`);
-
-  const allPlayers = document.querySelectorAll(".music-player");
-  allPlayers.forEach((p, i) => {
-    if (i != index && !p.paused) {
-      p.pause();
-      const icon = document.querySelector(`.play-icon[data-index="${i}"]`);
-      icon.src = "music-content/play-icon.png";
-    }
-  });
-
-  if (player.paused) {
-    player.play();
-    playIcon.src = "music-content/pause-icon.png";
-  } else {
-    player.pause();
-    playIcon.src = "music-content/play-icon.png";
-  }
-}
-
 loadCompositions();
+
+export { displayItems };

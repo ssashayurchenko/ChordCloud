@@ -44,3 +44,34 @@
 .play-icon:hover {
   transform: scale(1.1);
 }
+
+#pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pagination button {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+#pagination span {
+  display: flex;
+  gap: 10px;
+}
+
+#pagination span .page-number {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#pagination span .active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+

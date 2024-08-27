@@ -4,7 +4,9 @@ function init() {
   import("./modal-window.js")
   import("../myformproject/server.js");
   import("./burger-menu.js");
-  import("./music-navigation.js")
+  import("./music-navigation.js");
+  import("./togglePlayPause.js");
+  import("./pagination.js");
 }
 
 const totalPartials = document.querySelectorAll(
