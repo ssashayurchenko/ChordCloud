@@ -37,11 +37,20 @@
 .play-icon {
   width: clamp(35px, 10vw, 50px);
   height: clamp(35px, 10vw, 50px);
+}
+
+.favorites-btn {
+  width: clamp(30px, 10vw, 45px);
+  height: clamp(30px, 10vw, 45px);
+}
+.play-icon,
+.favorites-btn {
   cursor: pointer;
   transition: transform 0.3s;
 }
 
-.play-icon:hover {
+.play-icon:hover,
+.favorites-btn:hover {
   transform: scale(1.1);
 }
 

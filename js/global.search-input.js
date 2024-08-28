@@ -38,6 +38,7 @@ function displayItems(itemsToDisplay, startIndex = 0) {
               <p class="music-title">${result.title}</p>
               <p class="music-artist">${result.artist}</p>
           </div>
+          <img src="music-content/favorites.png" class="favorites-btn">
           <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${
             startIndex + index
           }">
