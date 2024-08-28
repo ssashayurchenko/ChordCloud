@@ -69,12 +69,15 @@
   top: 50px;
 }
 .menu__btn {
+  padding: clamp(5px, 1vw, 10px) clamp(16px, 1vw, 20px);
+  font-size: clamp(10px, 3vw, 16px);
+  color: var(--main-white-color);
+  border: none;
+  cursor: pointer;
   display: flex;
   position: absolute;
-  top: 80px;
-  cursor: pointer;
+  top: 120px;
   background-color: transparent;
-  border: none;
   z-index: 2001;
   width: 10px;
   height: 10px;

@@ -1,21 +1,55 @@
-import { closeModal } from "./modal-window.js";
-
-const registerForm = document.querySelector("#registerForm");
-const openModal = document.querySelector("#openModal");
+const registrationModal = document.getElementById("registrationModal");
+const openModal = document.getElementById("openModal");
+const span = document.getElementsByClassName("close")[0];
+const closeModal = document.querySelector("#closeModal");
+const logOutModal = document.querySelector("#logOutModal");
+const yesBtn = document.querySelector("#yesBtn");
+const cancelBtn = document.querySelector("#cancelBtn");
 const userNameDisplay = document.querySelector("#userNameContainer");
-const myModal = document.querySelector("#myModal");
+const registerForm = document.querySelector("#registerForm");
+
+function closeModalWindow() {
+  registrationModal.style.display = "none";
+}
+
+openModal.onclick = function () {
+  registrationModal.style.display = "block";
+};
+
+span.onclick = function () {
+  closeModalWindow();
+};
+
+function showModal() {
+  logOutModal.style.display = "block";
+  yesBtn.onclick = function () {
+    logOutModal.style.display = "none";
+    closeModal.style.display = "none";
+    openModal.style.display = "block";
+    userNameDisplay.style.display = "none";
+    localStorage.removeItem("registeredUserName");
+  };
+  cancelBtn.onclick = function () {
+    logOutModal.style.display = "none";
+    openModal.style.display = "none";
+    userNameDisplay.style.display = "block";
+  };
+}
+logOutModal.style.display = "none";
 
 const savedUserName = localStorage.getItem("registeredUserName");
 
 if (savedUserName) {
   userNameDisplay.innerHTML = `<div>${savedUserName}</div>`;
   userNameDisplay.style.display = "block";
-  if (openModal) {
-    openModal.style.display = "none";
-  }
+  closeModal.style.display = "block";
+  openModal.style.display = "none";
 } else {
+  closeModal.style.display = "none";
   userNameDisplay.style.display = "none";
 }
+
+closeModal.addEventListener("click", showModal);
 
 registerForm.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -50,15 +84,12 @@ registerForm.addEventListener("submit", function (event) {
    Username can only include letters, numbers, and underscores.</div>`;
   } else {
     localStorage.setItem("registeredUserName", userName);
-
-    myModal.style.display = "none";
-    closeModal();
+    registrationModal.style.display = "none";
+    closeModalWindow();
     alert(`Registration successful! ${userName} enjoy your music!`);
-    if (openModal) {
-      openModal.style.display = "none";
-    }
+    openModal.style.display = "none";
     userNameDisplay.innerHTML = `<div>${userName}</div>`;
     userNameDisplay.style.display = "block";
+    closeModal.style.display = "block";
   }
-  registerForm.reset();
 });

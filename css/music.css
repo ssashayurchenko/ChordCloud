@@ -4,14 +4,14 @@
   justify-content: space-between;
   margin-bottom: 15px;
   padding: 10px;
-  background-color: #fff;
+  background-color: var(--main-white-color);
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
 }
 
 .composition-item:hover {
-  background-color: #f0f0f0;
+  background-color: var(--white-hover-color);
 }
 
 .composition-info {
@@ -23,20 +23,20 @@
 }
 
 .music-title {
-  font-size: 18px;
+  font-size: clamp(13px, 3vw, 18px);
   font-weight: bold;
   margin: 0;
 }
 
 .music-artist {
-  font-size: 14px;
-  color: #555;
+  font-size: clamp(12px, 3vw, 15px);
+  color: var(--second-text-color);
   margin: 0;
 }
 
 .play-icon {
-  width: 50px;
-  height: 50px;
+  width: clamp(35px, 10vw, 50px);
+  height: clamp(35px, 10vw, 50px);
   cursor: pointer;
   transition: transform 0.3s;
 }
@@ -57,21 +57,20 @@
   margin: 0 5px;
 }
 
-#pagination span {
-  display: flex;
-  gap: 10px;
-}
-
-#pagination span .page-number {
-  cursor: pointer;
-  padding: 10px;
-  border: 1px solid #ccc;
+#prevPage,
+#nextPage {
+  padding: clamp(5px, 1vw, 10px) clamp(16px, 1vw, 20px);
+  font-family: var(--font-family-second);
+  font-size: clamp(10px, 3vw, 16px);
+  background-color: var(--button-main-color);
+  color: var(--main-white-color);
+  border: none;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-#pagination span .active {
-  background-color: #007bff;
-  color: white;
-  border-color: #007bff;
+#prevPage:hover,
+#nextPage:hover {
+  background-color: var(--hover-color);
 }
-

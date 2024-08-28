@@ -7,6 +7,8 @@
   --main-bg-color: #e8ebef;
   --logo-color: #666d7f;
   --main-white-color: #ffffff;
+  --white-hover-color: #f0f0f0;
+  --second-text-color: #555;
   --input-data-check: #a52a2a;
   --border-color: #ccc;
   --button-main-color: #5c6271;
@@ -23,7 +25,7 @@
 html {
   height: 100%;
   margin: 0;
-  overflow: auto; /* Переконайтеся, що прокрутка дозволена */
+  overflow: auto;
 }
 
 .container {

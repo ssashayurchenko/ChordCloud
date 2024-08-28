@@ -14,8 +14,19 @@
 }
 
 #searchButton {
-  padding: 10px;
-  font-size: clamp(10px, 5vw, 16px);
+  font-family: var(--font-family-second);
+  padding: clamp(5px, 1vw, 10px) clamp(16px, 1vw, 20px);
+  font-size: clamp(10px, 3vw, 16px);
+  background-color: var(--button-main-color);
+  color: var(--main-white-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: var(--hover-color);
 }
 
 #searchResults {

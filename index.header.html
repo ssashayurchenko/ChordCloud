@@ -14,8 +14,20 @@
 
       <div class="registration-container">
         <button id="openModal">Log In</button>
-
-        <div id="myModal" class="modal">
+        <button id="closeModal">
+          <img src="./img/global/log-out.png" id="closeModal_img" />
+          <div class="overlay-text">Log Out</div>
+        </button>
+        <div id="logOutModal">
+          <div id="logOutModal-content">
+            <p>Are you sure that you want to Log Out?</p>
+            <div id="buttonContainer">
+              <button id="yesBtn">Yes</button>
+              <button id="cancelBtn">Cancel</button>
+            </div>
+          </div>
+        </div>
+        <div id="registrationModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
             <form id="registerForm" action="/register" method="POST">
@@ -30,7 +42,7 @@
                 required
               />
               <div id="passwordCheck"></div>
-              <button type="submit">Register</button>
+              <button type="submit" id="submit_btn">Register</button>
             </form>
           </div>
         </div>

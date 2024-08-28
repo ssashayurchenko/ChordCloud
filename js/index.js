@@ -1,7 +1,6 @@
 function init() {
   import("./global.search-input.js");
   import("./register-form.js");
-  import("./modal-window.js")
   import("../myformproject/server.js");
   import("./burger-menu.js");
   import("./music-navigation.js");

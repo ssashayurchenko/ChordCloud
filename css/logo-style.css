@@ -1,0 +1,20 @@
+.logo-container {
+  padding-right: 10px;
+  padding-top: 15px;
+  display: flex;
+  margin-left: clamp(5px, 10vw, 200px);
+  align-items: center;
+}
+
+.header__site-logo {
+  width: clamp(30px, 3vw, 40px);
+}
+
+.header__title {
+  font-family: var(--font-family-main);
+  font-weight: 300;
+  font-size: clamp(10px, 3vw, 20px);
+  color: var(--logo-color);
+  text-align: center;
+  margin-left: 10px;
+}
