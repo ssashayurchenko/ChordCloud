@@ -1,5 +1,6 @@
 import { initializePagination } from "./pagination.js";
 import { setupPlayPauseListeners } from "./togglePlayPause.js";
+import { savedUserName } from "./register-form.js";
 
 async function loadCompositions() {
   const response = await fetch("api/songs-list.json");
@@ -9,7 +10,6 @@ async function loadCompositions() {
 
   displayItems(compositions);
   setupPlayPauseListeners();
-
   initializePagination(compositions);
 
   document
@@ -26,6 +26,16 @@ async function loadCompositions() {
         event.preventDefault();
       }
     });
+
+  // Event listener for Favorites link
+  document.getElementById("favorites").addEventListener("click", function () {
+    if (!savedUserName) {
+      document.getElementById("searchResults").innerHTML =
+        "<div>You are not logged in. Please log in to view your favorites.</div>";
+    } else {
+      displayFavorites();
+    }
+  });
 }
 
 function displayItems(itemsToDisplay, startIndex = 0) {
@@ -38,10 +48,8 @@ function displayItems(itemsToDisplay, startIndex = 0) {
               <p class="music-title">${result.title}</p>
               <p class="music-artist">${result.artist}</p>
           </div>
-          <img src="music-content/favorites.png" class="favorites-btn">
-          <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${
-            startIndex + index
-          }">
+          <img src="music-content/favorites.png" class="favorites-btn" data-index="${startIndex + index}" data-title="${result.title}" data-artist="${result.artist}">
+          <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${startIndex + index}">
           <audio class="music-player" id="player-${startIndex + index}">
               <source src="${result.file}" type="audio/mpeg">
               Your browser does not support the audio element.
@@ -49,6 +57,17 @@ function displayItems(itemsToDisplay, startIndex = 0) {
       </div>`
     )
     .join("");
+
+  const favoritesBtns = document.querySelectorAll(".favorites-btn");
+  favoritesBtns.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      if (!savedUserName) {
+        alert("Log in first");
+      } else {
+        toggleFavorite(btn.dataset.title, btn.dataset.artist);
+      }
+    });
+  });
 }
 
 function search(compositions) {
@@ -70,6 +89,45 @@ function search(compositions) {
     displayItems(results);
   } else {
     resultsContainer.innerHTML = "<div>No composition found</div>";
+  }
+}
+
+function toggleFavorite(title, artist) {
+  const favorites = getFavorites();
+  const key = `${title}-${artist}`;
+  
+  if (favorites[key]) {
+    delete favorites[key];
+    alert("This composition was deleted from your favorites.");
+  } else {
+    favorites[key] = { title, artist };
+    alert("This composition was added to your favorites.");
+  }
+  
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+  displayFavorites();
+}
+
+function getFavorites() {
+  const favorites = localStorage.getItem("favorites");
+  return favorites ? JSON.parse(favorites) : {};
+}
+
+function displayFavorites() {
+  const favorites = getFavorites();
+  const resultsContainer = document.getElementById("searchResults");
+
+  if (Object.keys(favorites).length > 0) {
+    const favoritesCompositions = Object.values(favorites).map(item => ({
+      title: item.title,
+      artist: item.artist,
+      file: `music-content/compositions/${item.file}`, // Example path
+    }));
+
+    displayItems(favoritesCompositions);
+  } else {
+    resultsContainer.innerHTML =
+      "<div>There is no composition added to your favorites.</div>";
   }
 }
 

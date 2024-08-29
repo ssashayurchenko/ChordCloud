@@ -40,8 +40,8 @@
 }
 
 .favorites-btn {
-  width: clamp(30px, 10vw, 45px);
-  height: clamp(30px, 10vw, 45px);
+  width: clamp(27px, 10vw, 43px);
+  height: clamp(27px, 10vw, 43px);
 }
 .play-icon,
 .favorites-btn {

@@ -28,6 +28,7 @@ function showModal() {
     openModal.style.display = "block";
     userNameDisplay.style.display = "none";
     localStorage.removeItem("registeredUserName");
+    localStorage.removeItem("favorites"); // Clear favorites on logout
   };
   cancelBtn.onclick = function () {
     logOutModal.style.display = "none";
@@ -93,3 +94,6 @@ registerForm.addEventListener("submit", function (event) {
     closeModal.style.display = "block";
   }
 });
+
+
+export { savedUserName };
