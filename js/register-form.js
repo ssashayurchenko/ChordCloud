@@ -67,12 +67,14 @@ registerForm.addEventListener("submit", function (event) {
   passwordCheck.innerHTML = "";
   userNameCheck.innerHTML = "";
 
+  const userNamePattern = /^\w+$/;
   const loginPattern = /^[a-z0-9]+([.-][a-z0-9]+)*@[a-z]+\.[a-z]{2,}$/;
   const passwordPattern =
     /^(?=.*[A-Za-z])(?=.*\d)(?=.*[-@!#$?])[A-Za-z\d-@!#$?]+$/;
-  const userNamePattern = /^\w+$/;
 
-  if (!loginPattern.test(login)) {
+  if (!userNamePattern.test(userName)) {
+    userNameCheck.innerHTML = `<div>The username can only contain English letters, numbers, and underscores.</div>`;
+  } else if (!loginPattern.test(login)) {
     loginCheck.innerHTML =
       "<div>Your login is invalid. It should be in the format: example@domain.example</div>";
   } else if (!passwordPattern.test(password)) {
@@ -81,8 +83,6 @@ registerForm.addEventListener("submit", function (event) {
                 Your password is invalid. 
                 It should include at least: one letter, one number, and one special character (@!#$?).
             </div>`;
-  } else if (!userNamePattern.test(userName)) {
-    userNameCheck.innerHTML = `<div>The username can only contain English letters, numbers, and underscores.</div>`;
   } else {
     localStorage.setItem("registeredUserName", userName);
     registrationModal.style.display = "none";
