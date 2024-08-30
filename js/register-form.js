@@ -82,8 +82,7 @@ registerForm.addEventListener("submit", function (event) {
                 It should include at least: one letter, one number, and one special character (@!#$?).
             </div>`;
   } else if (!userNamePattern.test(userName)) {
-    userNameCheck.innerHTML = `<div>Your name is invalid. 
-   Username can only include letters, numbers, and underscores.</div>`;
+    userNameCheck.innerHTML = `<div>The username can only contain English letters, numbers, and underscores.</div>`;
   } else {
     localStorage.setItem("registeredUserName", userName);
     registrationModal.style.display = "none";

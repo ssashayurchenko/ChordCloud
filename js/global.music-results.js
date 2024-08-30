@@ -30,7 +30,7 @@ async function loadCompositions() {
   document.getElementById("favorites").addEventListener("click", function () {
     if (!savedUserName) {
       document.getElementById("musicResults").innerHTML =
-        "<div>You are not logged in. Please log in to view your favorites.</div>";
+        "<div>You are not logged in. Log in to view your favorites.</div>";
     } else {
       displayFavorites();
     }
@@ -84,7 +84,7 @@ function search(compositions) {
   const resultsContainer = document.getElementById("musicResults");
 
   if (!searchInput.trim()) {
-    resultsContainer.innerHTML = "<div>Please enter a search query</div>";
+    resultsContainer.innerHTML = "<div>Please enter a search query.</div>";
     return;
   }
 
@@ -94,6 +94,7 @@ function search(compositions) {
 
   if (results.length > 0) {
     displayItems(results);
+    initializePagination(results);
   } else {
     resultsContainer.innerHTML = "<div>No composition found</div>";
   }
@@ -105,10 +106,10 @@ function toggleFavorite(title, artist, file) {
 
   if (favorites[key]) {
     delete favorites[key];
-    alert("This composition was deleted from your favorites.");
+    alert("This composition has been removed from your favorites.");
   } else {
     favorites[key] = { title, artist, file };
-    alert("This composition was added to your favorites.");
+    alert("This composition has been added to your favorites.");
   }
 
   localStorage.setItem("favorites", JSON.stringify(favorites));

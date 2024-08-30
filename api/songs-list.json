@@ -2,16 +2,392 @@
   {
     "All": [
       {
+        "id": 167,
+        "title": "Texas Hold 'Em",
+        "artist": "Beyonce",
+        "file": "music-content/compositions/beyonce-texas-hold-em.mp3"
+      },
+      {
+        "id": 7,
+        "title": "Mary On A Cross",
+        "artist": "Ghost",
+        "file": "music-content/compositions/mary-on-a-cross.mp3"
+      },
+      {
+        "id": 25,
+        "title": "Smooth Operator",
+        "artist": "Sade",
+        "file": "music-content/compositions/sade-smooth-operator.mp3"
+      },
+      {
+        "id": 18,
+        "title": "I Loved You",
+        "artist": "DJ Sava",
+        "file": "music-content/compositions/i-loved-you.mp3"
+      },
+      {
+        "id": 10,
+        "title": "I Follow Rivers",
+        "artist": "Lykke Li",
+        "file": "music-content/compositions/i-follow-rivers.mp3"
+      },
+      {
+        "id": 29,
+        "title": "Other People",
+        "artist": "Lp",
+        "file": "music-content/compositions/lp-other-people.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Струна",
+        "artist": "С.К.А.Й.",
+        "file": "music-content/compositions/s.k.a.jj.-struna.mp3"
+      },
+      {
+        "id": 15,
+        "title": "Snap",
+        "artist": "Rosa Linn",
+        "file": "music-content/compositions/snap.mp3"
+      },
+      {
+        "id": 16,
+        "title": "Supergirl",
+        "artist": "Anna Naklab & Younotus feat. Alle Farben",
+        "file": "music-content/compositions/supergirl.mp3"
+      },
+      {
         "id": 1,
-        "title": "Forever Young",
-        "artist": "Alphaville",
-        "file": "music-content/compositions/forever-young.mp3"
+        "title": "Тримай",
+        "artist": "Христина Соловій",
+        "file": "music-content/compositions/khristina-solovijj-trimajj.mp3"
+      },
+      {
+        "id": 13,
+        "title": "Ocean Drive",
+        "artist": "Duke Dumont",
+        "file": "music-content/compositions/ocean-drive.mp3"
+      },
+      {
+        "id": 30,
+        "title": "Under The Ladder",
+        "artist": "Melovin",
+        "file": "music-content/compositions/melovin-under-the-ladder.mp3"
+      },
+      {
+        "id": 4,
+        "title": "Lights",
+        "artist": "Ellie Goulding",
+        "file": "music-content/compositions/lights.mp3"
+      },
+      {
+        "id": 22,
+        "title": "Greedy",
+        "artist": "Tate McRae",
+        "file": "music-content/compositions/tate-mcrae-greedy.mp3"
+      },
+      {
+        "id": 17,
+        "title": "I Wanna Be Yours",
+        "artist": "Arctic Monkeys",
+        "file": "music-content/compositions/i-wanna-be-yours.mp3"
+      },
+      {
+        "id": 19,
+        "title": "Bones",
+        "artist": "Imagine Dragons",
+        "file": "music-content/compositions/imagine-dragons-bones.mp3"
+      },
+      {
+        "id": 5,
+        "title": "Все Це Знову",
+        "artist": "O.Torvald",
+        "file": "music-content/compositions/o.torvald-vse-ce-znovu.mp3"
+      },
+      {
+        "id": 159,
+        "title": "Mansion on the Hill",
+        "artist": "George Jones",
+        "file": "music-content/compositions/george-jones-mansion-on-the-hill.mp3"
+      },
+      {
+        "id": 35,
+        "title": "Animals",
+        "artist": "Maroon 5 ",
+        "file": "music-content/compositions/maroon-5-animals.mp3"
       },
       {
         "id": 2,
-        "title": "Dancin",
-        "artist": "Aaron Smith",
-        "file": "music-content/compositions/dancing.mp3"
+        "title": "Люди",
+        "artist": "Бумбокс",
+        "file": "music-content/compositions/bumboks-ljudi.mp3"
+      },
+      {
+        "id": 153,
+        "title": "You Remind Me of Myself",
+        "artist": "Lachlan Bryan",
+        "file": "music-content/compositions/lachlan-bryan-you-remind-me-of-myself.mp3"
+      },
+      {
+        "id": 146,
+        "title": "Don't Wanna Dance",
+        "artist": "Thomas Rhett",
+        "file": "music-content/compositions/thomas-rhett-dont-wanna-dance.mp3"
+      },
+      {
+        "id": 150,
+        "title": "Met You",
+        "artist": "Morgan Wade",
+        "file": "music-content/compositions/morgan-wade-met-you.mp3"
+      },
+      {
+        "id": 157,
+        "title": "Clayton Was a Cowboy",
+        "artist": "Jesse Daniel",
+        "file": "music-content/compositions/jesse-daniel-clayton-was-a-cowboy.mp3"
+      },
+      {
+        "id": 144,
+        "title": "Show Me the Country",
+        "artist": "Walker Hayes",
+        "file": "music-content/compositions/walker-hayes-show-me-the-country.mp3"
+      },
+      {
+        "id": 175,
+        "title": "Wish I Never Felt",
+        "artist": "Nate Smith",
+        "file": "music-content/compositions/nate-smith-wish-i-never-felt.mp3"
+      },
+      {
+        "id": 169,
+        "title": "Religiously",
+        "artist": "Bailey Zimmerman",
+        "file": "music-content/compositions/bailey-zimmerman-religiously.mp3"
+      },
+      {
+        "id": 142,
+        "title": "I Remember Everything",
+        "artist": "Zach Bryan feat. Kacey Musgraves",
+        "file": "music-content/compositions/zach-bryan-feat.-kacey-musgraves-i-remember-everything.mp3"
+      },
+      {
+        "id": 160,
+        "title": "I Just Don't Like This Kind of Livin'",
+        "artist": "George Jones",
+        "file": "music-content/compositions/george-jones-i-just-don039t-like-this-kind-of-livin039.mp3"
+      },
+      {
+        "id": 153,
+        "title": "You Remind Me of Myself",
+        "artist": "Lachlan Bryan",
+        "file": "music-content/compositions/lachlan-bryan-you-remind-me-of-myself.mp3"
+      },
+      {
+        "id": 145,
+        "title": "Fool",
+        "artist": "Thomas Rhett",
+        "file": "music-content/compositions/thomas-rhett-fool.mp3"
+      },
+      {
+        "id": 154,
+        "title": "Cry at Your Funeral",
+        "artist": "Kimberly Perry",
+        "file": "music-content/compositions/kimberly-perry-cry-at-your-funeral.mp3"
+      },
+      {
+        "id": 164,
+        "title": "Cowboy Capone",
+        "artist": "Colt Graves feat. Timbaland",
+        "file": "music-content/compositions/colt-graves-feat.-timbaland-cowboy-capone.mp3"
+      },
+      {
+        "id": 155,
+        "title": "Shine",
+        "artist": "Joshua Kadison",
+        "file": "music-content/compositions/joshua-kadison-shine.mp3"
+      },
+      {
+        "id": 171,
+        "title": "The Only Time a Fisherman Tells the Truth",
+        "artist": "Slim Dusty",
+        "file": "music-content/compositions/slim-dusty-the-only-time-a-fisherman-tells-the-truth.mp3"
+      },
+      {
+        "id": 161,
+        "title": "I Am",
+        "artist": "Dori Freeman",
+        "file": "music-content/compositions/dori-freeman-i-am.mp3"
+      },
+      {
+        "id": 159,
+        "title": "Mansion on the Hill",
+        "artist": "George Jones",
+        "file": "music-content/compositions/george-jones-mansion-on-the-hill.mp3"
+      },
+      {
+        "id": 148,
+        "title": "Everybody Needs Someone",
+        "artist": "Noah Cyrus feat. Vance Joy",
+        "file": "music-content/compositions/noah-cyrus-feat.-vance-joy-everybody-needs-someone.mp3"
+      },
+      {
+        "id": 174,
+        "title": "What Was It Like",
+        "artist": "Mary Chapin Carpenter",
+        "file": "music-content/compositions/mary-chapin-carpenter-what-was-it-like.mp3"
+      },
+      {
+        "id": 168,
+        "title": "Jolene",
+        "artist": "Beyonce",
+        "file": "music-content/compositions/beyonce-jolene.mp3"
+      },
+      {
+        "id": 172,
+        "title": "Every Little Thing",
+        "artist": "Ruth Manning",
+        "file": "music-content/compositions/ruth-manning-every-little-thing.mp3"
+      },
+      {
+        "id": 143,
+        "title": "Love on the Line",
+        "artist": "Warren Zeiders",
+        "file": "music-content/compositions/warren-zeiders-love-on-the-line.mp3"
+      },
+      {
+        "id": 153,
+        "title": "You Remind Me of Myself",
+        "artist": "Lachlan Bryan",
+        "file": "music-content/compositions/lachlan-bryan-you-remind-me-of-myself.mp3"
+      },
+      {
+        "id": 162,
+        "title": "Jolene",
+        "artist": "Dolly Parton feat. Maneskin",
+        "file": "music-content/compositions/dolly-parton-feat.-maneskin-jolene.mp3"
+      },
+      {
+        "id": 158,
+        "title": "Halfway to Hell",
+        "artist": "Jelly Roll",
+        "file": "music-content/compositions/jelly-roll-halfway-to-hell.mp3"
+      },
+      {
+        "id": 147,
+        "title": "Burns Like Her",
+        "artist": "Randall King",
+        "file": "music-content/compositions/randall-king-burns-like-her.mp3"
+      },
+      {
+        "id": 166,
+        "title": "Kiss Like You Dance",
+        "artist": "Charlie Worsham feat. Kip Moore",
+        "file": "music-content/compositions/charlie-worsham-feat.-kip-moore-kiss-like-you-dance.mp3"
+      },
+      {
+        "id": 165,
+        "title": "Crazy Girls",
+        "artist": "Chase Matthew",
+        "file": "music-content/compositions/chase-matthew-crazy-girls.mp3"
+      },
+      {
+        "id": 170,
+        "title": "See You Around",
+        "artist": "Ashley Cooke feat. Nate Smith",
+        "file": "music-content/compositions/ashley-cooke-feat.-nate-smith-see-you-around.mp3"
+      },
+      {
+        "id": 141,
+        "title": "Run Your Mouth",
+        "artist": "Gavin Adcock",
+        "file": "music-content/compositions/gavin-adcock-run-your-mouth.mp3"
+      },
+      {
+        "id": 145,
+        "title": "Fool",
+        "artist": "Thomas Rhett",
+        "file": "music-content/compositions/thomas-rhett-fool.mp3"
+      },
+      {
+        "id": 172,
+        "title": "Every Little Thing",
+        "artist": "Ruth Manning",
+        "file": "music-content/compositions/ruth-manning-every-little-thing.mp3"
+      },
+      {
+        "id": 143,
+        "title": "Love on the Line",
+        "artist": "Warren Zeiders",
+        "file": "music-content/compositions/warren-zeiders-love-on-the-line.mp3"
+      },
+      {
+        "id": 31,
+        "title": "Love Me Again",
+        "artist": "John Newman",
+        "file": "music-content/compositions/john-newman-love-me-again.mp3"
+      },
+      {
+        "id": 32,
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "file": "music-content/compositions/harry-styles-watermelon-sugar.mp3"
+      },
+      {
+        "id": 8,
+        "title": "Maps",
+        "artist": "Maroon 5",
+        "file": "music-content/compositions/maps.mp3"
+      },
+      {
+        "id": 24,
+        "title": "Shameless",
+        "artist": "Camila Cabello",
+        "file": "music-content/compositions/camila-cabello-shameless.mp3"
+      },
+      {
+        "id": 12,
+        "title": "As It Was",
+        "artist": "Harry Styles",
+        "file": "music-content/compositions/as-it-was.mp3"
+      },
+      {
+        "id": 14,
+        "title": "The Night We Met",
+        "artist": "Lord Huron",
+        "file": "music-content/compositions/the-night-we-met.mp3"
+      },
+      {
+        "id": 3,
+        "title": "Fade Into You",
+        "artist": "Mazzy Star",
+        "file": "music-content/compositions/fade-into-you.mp3"
+      },
+      {
+        "id": 33,
+        "title": "Ghost Town",
+        "artist": "Adam Lambert",
+        "file": "music-content/compositions/adam-lambert-ghost-town.mp3"
+      },
+      {
+        "id": 9,
+        "title": "Counting Stars",
+        "artist": "OneRepublic",
+        "file": "music-content/compositions/counting-stars.mp3"
+      }
+    ]
+  },
+  {
+    "Popular": [
+      {
+        "id": 1,
+        "title": "Тримай",
+        "artist": "Христина Соловій",
+        "file": "music-content/compositions/khristina-solovijj-trimajj.mp3"
+      },
+      {
+        "id": 2,
+        "title": "Люди",
+        "artist": "Бумбокс",
+        "file": "music-content/compositions/bumboks-ljudi.mp3"
       },
       {
         "id": 3,
@@ -27,79 +403,1259 @@
       },
       {
         "id": 5,
+        "title": "Все Це Знову",
+        "artist": "O.Torvald",
+        "file": "music-content/compositions/o.torvald-vse-ce-znovu.mp3"
+      },
+      {
+        "id": 6,
+        "title": "Струна",
+        "artist": "С.К.А.Й.",
+        "file": "music-content/compositions/s.k.a.jj.-struna.mp3"
+      },
+      {
+        "id": 7,
         "title": "Mary On A Cross",
         "artist": "Ghost",
         "file": "music-content/compositions/mary-on-a-cross.mp3"
       },
       {
-        "id": 6,
+        "id": 8,
         "title": "Maps",
         "artist": "Maroon 5",
         "file": "music-content/compositions/maps.mp3"
       },
       {
-        "id": 7,
+        "id": 9,
         "title": "Counting Stars",
         "artist": "OneRepublic",
         "file": "music-content/compositions/counting-stars.mp3"
       },
       {
-        "id": 8,
+        "id": 10,
         "title": "I Follow Rivers",
         "artist": "Lykke Li",
         "file": "music-content/compositions/i-follow-rivers.mp3"
       },
       {
-        "id": 9,
+        "id": 11,
         "title": "Take Me To Church",
         "artist": "Hozier",
         "file": "music-content/compositions/take-me-to-church.mp3"
       },
       {
-        "id": 10,
+        "id": 12,
         "title": "As It Was",
         "artist": "Harry Styles",
         "file": "music-content/compositions/as-it-was.mp3"
       },
       {
-        "id": 11,
+        "id": 13,
         "title": "Ocean Drive",
         "artist": "Duke Dumont",
         "file": "music-content/compositions/ocean-drive.mp3"
       },
       {
-        "id": 12,
+        "id": 14,
         "title": "The Night We Met",
         "artist": "Lord Huron",
         "file": "music-content/compositions/the-night-we-met.mp3"
       },
       {
-        "id": 13,
+        "id": 15,
         "title": "Snap",
         "artist": "Rosa Linn",
         "file": "music-content/compositions/snap.mp3"
       },
       {
-        "id": 14,
+        "id": 16,
         "title": "Supergirl",
         "artist": "Anna Naklab & Younotus feat. Alle Farben",
         "file": "music-content/compositions/supergirl.mp3"
-      }
-    ]
-  },
-  {
-    "Pop": [
+      },
       {
         "id": 17,
+        "title": "I Wanna Be Yours",
+        "artist": "Arctic Monkeys",
+        "file": "music-content/compositions/i-wanna-be-yours.mp3"
+      },
+      {
+        "id": 18,
+        "title": "I Loved You",
+        "artist": "DJ Sava",
+        "file": "music-content/compositions/i-loved-you.mp3"
+      },
+      {
+        "id": 19,
+        "title": "Bones",
+        "artist": "Imagine Dragons",
+        "file": "music-content/compositions/imagine-dragons-bones.mp3"
+      },
+      {
+        "id": 20,
+        "title": "Popular",
+        "artist": "The Weeknd feat. Playboi Carti & Madonna",
+        "file": "music-content/compositions/the-weeknd-feat.-playboi-carti-amp-madonna-popular.mp3"
+      },
+      {
+        "id": 21,
+        "title": "Born To Die",
+        "artist": "Lana Del Rey",
+        "file": "music-content/compositions/lana-del-rey-born-to-die.mp3"
+      },
+      {
+        "id": 22,
+        "title": "Greedy",
+        "artist": "Tate McRae",
+        "file": "music-content/compositions/tate-mcrae-greedy.mp3"
+      },
+      {
+        "id": 23,
+        "title": "Pray For Me",
+        "artist": "The Weeknd & Kendrick Lamar",
+        "file": "music-content/compositions/the-weeknd-kendrick-lamar-pray-for-me.mp3"
+      },
+      {
+        "id": 24,
+        "title": "Shameless",
+        "artist": "Camila Cabello",
+        "file": "music-content/compositions/camila-cabello-shameless.mp3"
+      },
+      {
+        "id": 25,
+        "title": "Smooth Operator",
+        "artist": "Sade",
+        "file": "music-content/compositions/sade-smooth-operator.mp3"
+      },
+      {
+        "id": 26,
         "title": "Forever Young",
         "artist": "Alphaville",
         "file": "music-content/compositions/forever-young.mp3"
       },
       {
-        "id": 18,
+        "id": 27,
         "title": "Dancin",
         "artist": "Aaron Smith",
         "file": "music-content/compositions/dancing.mp3"
+      },
+      {
+        "id": 28,
+        "title": "Save Your Tears",
+        "artist": "The Weeknd",
+        "file": "music-content/compositions/the-weeknd-save-your-tears.mp3"
+      },
+      {
+        "id": 29,
+        "title": "Other People",
+        "artist": "Lp",
+        "file": "music-content/compositions/lp-other-people.mp3"
+      },
+      {
+        "id": 30,
+        "title": "Under The Ladder",
+        "artist": "Melovin",
+        "file": "music-content/compositions/melovin-under-the-ladder.mp3"
+      },
+      {
+        "id": 31,
+        "title": "Love Me Again",
+        "artist": "John Newman",
+        "file": "music-content/compositions/john-newman-love-me-again.mp3"
+      },
+      {
+        "id": 32,
+        "title": "Watermelon Sugar",
+        "artist": "Harry Styles",
+        "file": "music-content/compositions/harry-styles-watermelon-sugar.mp3"
+      },
+      {
+        "id": 33,
+        "title": "Ghost Town",
+        "artist": "Adam Lambert",
+        "file": "music-content/compositions/adam-lambert-ghost-town.mp3"
+      },
+      {
+        "id": 34,
+        "title": "Somebody That I Used To Know",
+        "artist": "Gotye",
+        "file": "music-content/compositions/gotye-somebody-that-i-used-to-know.mp3"
+      },
+      {
+        "id": 35,
+        "title": "Animals",
+        "artist": "Maroon 5 ",
+        "file": "music-content/compositions/maroon-5-animals.mp3"
+      }
+    ]
+  },
+  {
+    "Jazz": [
+      {
+        "id": 36,
+        "title": "Love",
+        "artist": "Nat King Cole",
+        "file": "music-content/compositions/nat-king-cole-love.mp3"
+      },
+      {
+        "id": 37,
+        "title": "Record De Nit",
+        "artist": "Andrea Motis",
+        "file": "music-content/compositions/andrea-motis-record-de-nit.mp3"
+      },
+      {
+        "id": 38,
+        "title": "That's Life",
+        "artist": "Frank Sinatra",
+        "file": "music-content/compositions/frank-sinatra-that039s-life.mp3"
+      },
+      {
+        "id": 39,
+        "title": "Everybody Loves Somebody",
+        "artist": "Frank Sinatra",
+        "file": "music-content/compositions/frank-sinatra-everybody-loves-somebody.mp3"
+      },
+      {
+        "id": 40,
+        "title": "Some Day My Prince Will Come",
+        "artist": "Imany",
+        "file": "music-content/compositions/imany-some-day-my-prince-will-come.mp3"
+      },
+      {
+        "id": 41,
+        "title": "Tainted Love",
+        "artist": "Karen Souza, Stella Starlight Trio",
+        "file": "music-content/compositions/karen-souza-stella-starlight-trio-tainted-love.mp3"
+      },
+      {
+        "id": 42,
+        "title": "Bibbidi",
+        "artist": "Stacey Kent",
+        "file": "music-content/compositions/stacey-kent-bibbidi.mp3"
+      },
+      {
+        "id": 43,
+        "title": "Santa Claus is Coming to Town",
+        "artist": "Frank Sinatra",
+        "file": "music-content/compositions/frank-sinatra-santa-claus-is-coming-to-town.mp3"
+      },
+      {
+        "id": 44,
+        "title": "This Guy’s In Love With You",
+        "artist": "Dave Koz",
+        "file": "music-content/compositions/dave-koz-this-guys-in-love-with-you.mp3"
+      },
+      {
+        "id": 45,
+        "title": "Louane",
+        "artist": "Nuit Pourpre",
+        "file": "music-content/compositions/louane-nuit-pourpre.mp3"
+      },
+      {
+        "id": 46,
+        "title": "Mambo Italiano",
+        "artist": "Dean Martin",
+        "file": "music-content/compositions/dean-martin-mambo-italiano.mp3"
+      },
+      {
+        "id": 47,
+        "title": "You’ll Be In My Heart",
+        "artist": "George Benson",
+        "file": "music-content/compositions/george-benson-youll-be-in-my-heart.mp3"
+      },
+      {
+        "id": 48,
+        "title": "Bad News",
+        "artist": "Melody Gardot",
+        "file": "music-content/compositions/melody-gardot-bad-news.mp3"
+      },
+      {
+        "id": 49,
+        "title": "Somethin' Stupid",
+        "artist": "Frank Sinatra feat. Nancy Sinatra",
+        "file": "music-content/compositions/frank-sinatra-nancy-sinatra-somethin039-stupid-feat.-nancy-sinatra.mp3"
+      },
+      {
+        "id": 50,
+        "title": "Anema E Core",
+        "artist": "Giacomo Bondi",
+        "file": "music-content/compositions/giacomo-bondi-anema-e-core.mp3"
+      },
+      {
+        "id": 51,
+        "title": "Beauty And The Beast",
+        "artist": "Bebel Gilberto",
+        "file": "music-content/compositions/bebel-gilberto-beauty-and-the-beast.mp3"
+      },
+      {
+        "id": 52,
+        "title": "Anything Goes",
+        "artist": "Tony Bennett",
+        "file": "music-content/compositions/tony-bennett-anything-goes.mp3"
+      },
+      {
+        "id": 53,
+        "title": "Why Don't You Do Right",
+        "artist": "China Moses",
+        "file": "music-content/compositions/china-moses-why-don039t-you-do-right.mp3"
+      },
+      {
+        "id": 54,
+        "title": "It's A Good Day",
+        "artist": "Peggy Lee, Dave Barbour's Orchestra",
+        "file": "music-content/compositions/peggy-lee-dave-barbour039s-orchestra-it039s-a-good-day.mp3"
+      },
+      {
+        "id": 55,
+        "title": "Siboney",
+        "artist": "Connie Francis",
+        "file": "music-content/compositions/connie-francis-siboney.mp3"
+      },
+      {
+        "id": 56,
+        "title": "If You Were A Sailboat",
+        "artist": "Katie Melua",
+        "file": "music-content/compositions/katie-melua-if-you-were-a-sailboat.mp3"
+      },
+      {
+        "id": 57,
+        "title": "If The Moon Turns Green",
+        "artist": "Billie Holiday",
+        "file": "music-content/compositions/billie-holiday-if-the-moon-turns-green.mp3"
+      },
+      {
+        "id": 58,
+        "title": "Just Like Heaven",
+        "artist": "Katie Melua",
+        "file": "music-content/compositions/katie-melua-just-like-heaven.mp3"
+      },
+      {
+        "id": 59,
+        "title": "Killing Me Softly With His Song",
+        "artist": "Kandace Springs",
+        "file": "music-content/compositions/kandace-springs-killing-me-softly-with-his-song.mp3"
+      },
+      {
+        "id": 60,
+        "title": "The Girl From Ipanema",
+        "artist": "Nat King Cole, Gregory Porter",
+        "file": "music-content/compositions/nat-king-cole-gregory-porter-the-girl-from-ipanema.mp3"
+      },
+      {
+        "id": 61,
+        "title": "The Golden Touch",
+        "artist": "Madeleine Peyroux",
+        "file": "music-content/compositions/madeleine-peyroux-the-golden-touch.mp3"
+      },
+      {
+        "id": 62,
+        "title": "Amalia",
+        "artist": "Melody Gardot",
+        "file": "music-content/compositions/melody-gardot-amalia.mp3"
+      },
+      {
+        "id": 63,
+        "title": "Moonage Daydream",
+        "artist": "Yelloworld",
+        "file": "music-content/compositions/yelloworld-moonage-daydream.mp3"
+      },
+      {
+        "id": 64,
+        "title": "Beautiful, Altogether",
+        "artist": "Jamie Cullum",
+        "file": "music-content/compositions/jamie-cullum-beautiful-altogether.mp3"
+      },
+      {
+        "id": 65,
+        "title": "Special Love",
+        "artist": "Ely Bruna, Papik",
+        "file": "music-content/compositions/ely-bruna-papik-special-love.mp3"
+      },
+      {
+        "id": 66,
+        "title": "Blue Moon",
+        "artist": "Frank Sinatra",
+        "file": "music-content/compositions/frank-sinatra-blue-moon.mp3"
+      },
+      {
+        "id": 67,
+        "title": "I Remember You",
+        "artist": "Peggy Lee",
+        "file": "music-content/compositions/peggy-lee-i-remember-you.mp3"
+      },
+      {
+        "id": 68,
+        "title": "So Many Santas",
+        "artist": "Jamie Cullum",
+        "file": "music-content/compositions/jamie-cullum-so-many-santas.mp3"
+      },
+      {
+        "id": 69,
+        "title": "You've Got A Friend In Me",
+        "artist": "Hugh Coltman",
+        "file": "music-content/compositions/hugh-coltman-you039ve-got-a-friend-in-me.mp3"
+      },
+      {
+        "id": 70,
+        "title": "Baltimore",
+        "artist": "Lianne La Havas",
+        "file": "music-content/compositions/lianne-la-havas-baltimore.mp3"
+      }
+    ]
+  },
+  {
+    "Indie": [
+      {
+        "id": 71,
+        "title": "Throw It in the Fire",
+        "artist": "Local Natives",
+        "file": "music-content/compositions/local-natives-throw-it-in-the-fire.mp3"
+      },
+      {
+        "id": 72,
+        "title": "August Next Month",
+        "artist": "Zoe Blume",
+        "file": "music-content/compositions/zoe-blume-august-next-month.mp3"
+      },
+      {
+        "id": 73,
+        "title": "Streets of Heaven",
+        "artist": "Tom Odell",
+        "file": "music-content/compositions/tom-odell-streets-of-heaven.mp3"
+      },
+      {
+        "id": 74,
+        "title": "Sorry",
+        "artist": "Talisco",
+        "file": "music-content/compositions/talisco-sorry.mp3"
+      },
+      {
+        "id": 75,
+        "title": "Holding You Holding Me",
+        "artist": "Cigarettes After Sex",
+        "file": "music-content/compositions/cigarettes-after-sex-holding-you-holding-me.mp3"
+      },
+      {
+        "id": 76,
+        "title": "Lost at Sea",
+        "artist": "Rob Grant feat. Lana Del Rey",
+        "file": "music-content/compositions/rob-grant-feat.-lana-del-rey-lost-at-sea.mp3"
+      },
+      {
+        "id": 77,
+        "title": "How I Love You",
+        "artist": "Rhodes",
+        "file": "music-content/compositions/rhodes-how-i-love-you.mp3"
+      },
+      {
+        "id": 78,
+        "title": "Haunted World",
+        "artist": "Real Estate",
+        "file": "music-content/compositions/real-estate-haunted-world.mp3"
+      },
+      {
+        "id": 79,
+        "title": "Know the Night",
+        "artist": "Ocie Elliott",
+        "file": "music-content/compositions/ocie-elliott-know-the-night.mp3"
+      },
+      {
+        "id": 80,
+        "title": "Free",
+        "artist": "Ocie Elliott",
+        "file": "music-content/compositions/ocie-elliott-free.mp3"
+      },
+      {
+        "id": 81,
+        "title": "Come on By",
+        "artist": "Ocie Elliott",
+        "file": "music-content/compositions/ocie-elliott-come-on-by.mp3"
+      },
+      {
+        "id": 82,
+        "title": "I Love Me After You",
+        "artist": "Mitski",
+        "file": "music-content/compositions/mitski-i-love-me-after-you.mp3"
+      },
+      {
+        "id": 83,
+        "title": "Missing Out",
+        "artist": "Maya Hawke",
+        "file": "music-content/compositions/maya-hawke-missing-out.mp3"
+      },
+      {
+        "id": 84,
+        "title": "Cupido",
+        "artist": "Legno",
+        "file": "music-content/compositions/legno-cupido.mp3"
+      },
+      {
+        "id": 85,
+        "title": "Take Me Home, Country Roads",
+        "artist": "Lana Del Rey",
+        "file": "music-content/compositions/lana-del-rey-take-me-home-country-roads.mp3"
+      },
+      {
+        "id": 86,
+        "title": "Salvador",
+        "artist": "Joshua Curran",
+        "file": "music-content/compositions/joshua-curran-salvador.mp3"
+      },
+      {
+        "id": 87,
+        "title": "New Friend",
+        "artist": "Ilira",
+        "file": "music-content/compositions/ilira-new-friend.mp3"
+      },
+      {
+        "id": 88,
+        "title": "Anything But",
+        "artist": "Hozier",
+        "file": "music-content/compositions/hozier-anything-but.mp3"
+      },
+      {
+        "id": 89,
+        "title": "Songs in My Head",
+        "artist": "Honne",
+        "file": "music-content/compositions/honne-songs-in-my-head.mp3"
+      },
+      {
+        "id": 90,
+        "title": "Suburban House",
+        "artist": "Holly Macve feat. Lana Del Rey",
+        "file": "music-content/compositions/holly-macve-feat.-lana-del-rey-suburban-house.mp3"
+      },
+      {
+        "id": 91,
+        "title": "About You",
+        "artist": "Heroe",
+        "file": "music-content/compositions/heroe-about-youv.mp3"
+      },
+      {
+        "id": 92,
+        "title": "Bella Blue",
+        "artist": "Haux",
+        "file": "music-content/compositions/haux-bella-blue.mp3"
+      },
+      {
+        "id": 93,
+        "title": "The Wind and the Wild",
+        "artist": "Harrison Storm",
+        "file": "music-content/compositions/harrison-storm-the-wind-and-the-wild.mp3"
+      },
+      {
+        "id": 94,
+        "title": "Better with You",
+        "artist": "Harrison Storm",
+        "file": "music-content/compositions/harrison-storm-better-with-you.mp3"
+      },
+      {
+        "id": 95,
+        "title": "Creatures in Heaven",
+        "artist": "Glass Animals",
+        "file": "music-content/compositions/glass-animals-creatures-in-heaven.mp3"
+      },
+      {
+        "id": 96,
+        "title": "Losing Touch",
+        "artist": "Garrett Kato",
+        "file": "music-content/compositions/garrett-kato-losing-touch.mp3"
+      },
+      {
+        "id": 97,
+        "title": "Are You OK?",
+        "artist": "Garrett Kato",
+        "file": "music-content/compositions/garrett-kato-are-you-ok.mp3"
+      },
+      {
+        "id": 98,
+        "title": "11",
+        "artist": "Folcast",
+        "file": "music-content/compositions/folcast-11.mp3"
+      },
+      {
+        "id": 99,
+        "title": "Second Nature",
+        "artist": "Clairo",
+        "file": "music-content/compositions/clairo-second-nature.mp3"
+      },
+      {
+        "id": 100,
+        "title": "Pier 4",
+        "artist": "Clairo",
+        "file": "music-content/compositions/clairo-pier-4.mp3"
+      },
+      {
+        "id": 101,
+        "title": "Could've Been You",
+        "artist": "Sam Nelson feat. X Ambassadors",
+        "file": "music-content/compositions/sam-nelson-feat.-x-ambassadors-could039ve-been-you.mp3"
+      },
+      {
+        "id": 102,
+        "title": "Rare",
+        "artist": "Bullion feat. Carly Rae Jepsen",
+        "file": "music-content/compositions/bullion-feat.-carly-rae-jepsen-rare.mp3"
+      },
+      {
+        "id": 103,
+        "title": "From the Beginning",
+        "artist": "Boo Seeka",
+        "file": "music-content/compositions/boo-seeka-from-the-beginning.mp3"
+      },
+      {
+        "id": 104,
+        "title": "My Big Day",
+        "artist": "Bombay Bicycle Club",
+        "file": "music-content/compositions/bombay-bicycle-club-my-big-day.mp3"
+      },
+      {
+        "id": 105,
+        "title": "Katze",
+        "artist": "Adrian Hermes",
+        "file": "music-content/compositions/adrian-hermes-katze.mp3"
+      }
+    ]
+  },
+  {
+    "Hits of the 70s": [
+      {
+        "id": 106,
+        "title": "Money, Money, Money",
+        "artist": "ABBA",
+        "file": "music-content/compositions/abba-money-money-money.mp3"
+      },
+      {
+        "id": 107,
+        "title": "September",
+        "artist": "Earth, Wind & Fire",
+        "file": "music-content/compositions/earth-wind-amp-fire-september.mp3"
+      },
+      {
+        "id": 108,
+        "title": "Felicita",
+        "artist": "Al Bano & Romina Power",
+        "file": "music-content/compositions/al-bano-amp-romina-power-felicita.mp3"
+      },
+      {
+        "id": 109,
+        "title": "Joe Le Taxi",
+        "artist": "Vanessa Paradis",
+        "file": "music-content/compositions/vanessa-paradis-joe-le-taxi.mp3"
+      },
+      {
+        "id": 110,
+        "title": "Cause You Are Young",
+        "artist": "CC Catch",
+        "file": "music-content/compositions/c.c.catch-cause-you-are-young.mp3"
+      },
+      {
+        "id": 111,
+        "title": "Let It Be",
+        "artist": "The Beatles",
+        "file": "music-content/compositions/the-beatles-let-it-be.mp3"
+      },
+      {
+        "id": 112,
+        "title": "Careless Whisper",
+        "artist": "George Michael",
+        "file": "music-content/compositions/george-michael-careless-whisper.mp3"
+      },
+      {
+        "id": 113,
+        "title": "Driver's Seat",
+        "artist": "Sniff 'n' the Tears",
+        "file": "music-content/compositions/sniff-039n039-the-tears-driver039s-seat.mp3"
+      },
+      {
+        "id": 114,
+        "title": "I Don't Want to Talk About It",
+        "artist": "Rod Stewart",
+        "file": "music-content/compositions/rod-stewart-i-don039t-want-to-talk-about-it.mp3"
+      },
+      {
+        "id": 115,
+        "title": "Have You Never Been Mellow",
+        "artist": "Olivia Newton-John",
+        "file": "music-content/compositions/olivia-newton-john-have-you-never-been-mellow.mp3"
+      },
+      {
+        "id": 116,
+        "title": "Lotta Love",
+        "artist": "Nicolette Larson",
+        "file": "music-content/compositions/nicolette-larson-lotta-love.mp3"
+      },
+      {
+        "id": 117,
+        "title": "In Love We Grow",
+        "artist": "Maxine Nightingale",
+        "file": "music-content/compositions/maxine-nightingale-in-love-we-grow.mp3"
+      },
+      {
+        "id": 118,
+        "title": "Let's Stay Together",
+        "artist": "Margie Joseph",
+        "file": "music-content/compositions/margie-joseph-let039s-stay-together.mp3"
+      },
+      {
+        "id": 119,
+        "title": "It's So Easy",
+        "artist": "Linda Ronstadt",
+        "file": "music-content/compositions/linda-ronstadt-it039s-so-easy.mp3"
+      },
+      {
+        "id": 120,
+        "title": "Desperado",
+        "artist": "Linda Ronstadt",
+        "file": "music-content/compositions/linda-ronstadt-desperado.mp3"
+      },
+      {
+        "id": 121,
+        "title": "Your Turn Now",
+        "artist": "JD Souther",
+        "file": "music-content/compositions/jd-souther-your-turn-now.mp3"
+      },
+      {
+        "id": 122,
+        "title": "At Seventeen",
+        "artist": "Janis Ian",
+        "file": "music-content/compositions/janis-ian-at-seventeen.mp3"
+      },
+      {
+        "id": 123,
+        "title": "You've Got a Friend",
+        "artist": "James Taylor",
+        "file": "music-content/compositions/james-taylor-you039ve-got-a-friend.mp3"
+      },
+      {
+        "id": 124,
+        "title": "Cats in the Cradle",
+        "artist": "Harry Chapin",
+        "file": "music-content/compositions/harry-chapin-cats-in-the-cradle.mp3"
+      },
+      {
+        "id": 125,
+        "title": "Love Ballad",
+        "artist": "George Benson",
+        "file": "music-content/compositions/george-benson-love-ballad.mp3"
+      },
+      {
+        "id": 126,
+        "title": "You Are the Woman",
+        "artist": "Firefall",
+        "file": "music-content/compositions/firefall-you-are-the-woman.mp3"
+      },
+      {
+        "id": 127,
+        "title": "Shining Star",
+        "artist": "Earth, Wind & Fire",
+        "file": "music-content/compositions/earth-wind-amp-fire-shining-star.mp3"
+      },
+      {
+        "id": 128,
+        "title": "Hold the Line",
+        "artist": "Toto",
+        "file": "music-content/compositions/toto-hold-the-line.mp3"
+      },
+      {
+        "id": 129,
+        "title": "New Kid in Town",
+        "artist": "Eagles",
+        "file": "music-content/compositions/eagles-new-kid-in-town.mp3"
+      },
+      {
+        "id": 130,
+        "title": "Goodbye Girl",
+        "artist": "David Gates",
+        "file": "music-content/compositions/david-gates-goodbye-girl.mp3"
+      },
+      {
+        "id": 131,
+        "title": "We Don't Talk Anymore",
+        "artist": "Cliff Richard",
+        "file": "music-content/compositions/cliff-richard-we-don039t-talk-anymore.mp3"
+      },
+      {
+        "id": 132,
+        "title": "Yellow River",
+        "artist": "Christie",
+        "file": "music-content/compositions/christie-yellow-river.mp3"
+      },
+      {
+        "id": 133,
+        "title": "Move Me No Mountain",
+        "artist": "Chaka Khan",
+        "file": "music-content/compositions/chaka-khan-move-me-no-mountain.mp3"
+      },
+      {
+        "id": 134,
+        "title": "Rainy Night in Georgia",
+        "artist": "Brook Benton",
+        "file": "music-content/compositions/brook-benton-rainy-night-in-georgia.mp3"
+      },
+      {
+        "id": 135,
+        "title": "Is This Love",
+        "artist": "Bob Marley & The Wailers",
+        "file": "music-content/compositions/bob-marley-amp-the-wailers-is-this-love.mp3"
+      },
+      {
+        "id": 136,
+        "title": "Vienna",
+        "artist": "Billy Joel",
+        "file": "music-content/compositions/billy-joel-vienna.mp3"
+      },
+      {
+        "id": 137,
+        "title": "Day Dreaming",
+        "artist": "Aretha Franklin",
+        "file": "music-content/compositions/aretha-franklin-day-dreaming.mp3"
+      },
+      {
+        "id": 138,
+        "title": "Ventura Highway",
+        "artist": "America",
+        "file": "music-content/compositions/america-ventura-highway.mp3"
+      },
+      {
+        "id": 139,
+        "title": "Only Women Bleed",
+        "artist": "Alice Cooper",
+        "file": "music-content/compositions/alice-cooper-only-women-bleed.mp3"
+      },
+      {
+        "id": 140,
+        "title": "Wishing on a Star",
+        "artist": "Rose Royce",
+        "file": "music-content/compositions/rose-royce-wishing-on-a-star.mp3"
+      }
+    ]
+  },
+  {
+    "Country": [
+      {
+        "id": 141,
+        "title": "Run Your Mouth",
+        "artist": "Gavin Adcock",
+        "file": "music-content/compositions/gavin-adcock-run-your-mouth.mp3"
+      },
+      {
+        "id": 142,
+        "title": "I Remember Everything",
+        "artist": "Zach Bryan feat. Kacey Musgraves",
+        "file": "music-content/compositions/zach-bryan-feat.-kacey-musgraves-i-remember-everything.mp3"
+      },
+      {
+        "id": 143,
+        "title": "Love on the Line",
+        "artist": "Warren Zeiders",
+        "file": "music-content/compositions/warren-zeiders-love-on-the-line.mp3"
+      },
+      {
+        "id": 144,
+        "title": "Show Me the Country",
+        "artist": "Walker Hayes",
+        "file": "music-content/compositions/walker-hayes-show-me-the-country.mp3"
+      },
+      {
+        "id": 145,
+        "title": "Fool",
+        "artist": "Thomas Rhett",
+        "file": "music-content/compositions/thomas-rhett-fool.mp3"
+      },
+      {
+        "id": 146,
+        "title": "Don't Wanna Dance",
+        "artist": "Thomas Rhett",
+        "file": "music-content/compositions/thomas-rhett-dont-wanna-dance.mp3"
+      },
+      {
+        "id": 147,
+        "title": "Burns Like Her",
+        "artist": "Randall King",
+        "file": "music-content/compositions/randall-king-burns-like-her.mp3"
+      },
+      {
+        "id": 148,
+        "title": "Everybody Needs Someone",
+        "artist": "Noah Cyrus feat. Vance Joy",
+        "file": "music-content/compositions/noah-cyrus-feat.-vance-joy-everybody-needs-someone.mp3"
+      },
+      {
+        "id": 149,
+        "title": "Bulletproof",
+        "artist": "Nate Smith",
+        "file": "music-content/compositions/nate-smith-bulletproof.mp3"
+      },
+      {
+        "id": 150,
+        "title": "Met You",
+        "artist": "Morgan Wade",
+        "file": "music-content/compositions/morgan-wade-met-you.mp3"
+      },
+      {
+        "id": 151,
+        "title": "Redneck Rockstar",
+        "artist": "Mikey Goode",
+        "file": "music-content/compositions/mikey-goode-redneck-rockstar.mp3"
+      },
+      {
+        "id": 152,
+        "title": "Ain't No Love in Oklahoma",
+        "artist": "Luke Combs",
+        "file": "music-content/compositions/luke-combs-aint-no-love-in-oklahoma.mp3"
+      },
+      {
+        "id": 153,
+        "title": "You Remind Me of Myself",
+        "artist": "Lachlan Bryan",
+        "file": "music-content/compositions/lachlan-bryan-you-remind-me-of-myself.mp3"
+      },
+      {
+        "id": 154,
+        "title": "Cry at Your Funeral",
+        "artist": "Kimberly Perry",
+        "file": "music-content/compositions/kimberly-perry-cry-at-your-funeral.mp3"
+      },
+      {
+        "id": 155,
+        "title": "Shine",
+        "artist": "Joshua Kadison",
+        "file": "music-content/compositions/joshua-kadison-shine.mp3"
+      },
+      {
+        "id": 156,
+        "title": "Stranger in the Village",
+        "artist": "John Wright",
+        "file": "music-content/compositions/john-wright-stranger-in-the-village.mp3"
+      },
+      {
+        "id": 157,
+        "title": "Clayton Was a Cowboy",
+        "artist": "Jesse Daniel",
+        "file": "music-content/compositions/jesse-daniel-clayton-was-a-cowboy.mp3"
+      },
+      {
+        "id": 158,
+        "title": "Halfway to Hell",
+        "artist": "Jelly Roll",
+        "file": "music-content/compositions/jelly-roll-halfway-to-hell.mp3"
+      },
+      {
+        "id": 159,
+        "title": "Mansion on the Hill",
+        "artist": "George Jones",
+        "file": "music-content/compositions/george-jones-mansion-on-the-hill.mp3"
+      },
+      {
+        "id": 160,
+        "title": "I Just Don't Like This Kind of Livin'",
+        "artist": "George Jones",
+        "file": "music-content/compositions/george-jones-i-just-don039t-like-this-kind-of-livin039.mp3"
+      },
+      {
+        "id": 161,
+        "title": "I Am",
+        "artist": "Dori Freeman",
+        "file": "music-content/compositions/dori-freeman-i-am.mp3"
+      },
+      {
+        "id": 162,
+        "title": "Jolene",
+        "artist": "Dolly Parton feat. Maneskin",
+        "file": "music-content/compositions/dolly-parton-feat.-maneskin-jolene.mp3"
+      },
+      {
+        "id": 163,
+        "title": "Walking Man",
+        "artist": "Dillon James",
+        "file": "music-content/compositions/dillon-james-walking-man.mp3"
+      },
+      {
+        "id": 164,
+        "title": "Cowboy Capone",
+        "artist": "Colt Graves feat. Timbaland",
+        "file": "music-content/compositions/colt-graves-feat.-timbaland-cowboy-capone.mp3"
+      },
+      {
+        "id": 165,
+        "title": "Crazy Girls",
+        "artist": "Chase Matthew",
+        "file": "music-content/compositions/chase-matthew-crazy-girls.mp3"
+      },
+      {
+        "id": 166,
+        "title": "Kiss Like You Dance",
+        "artist": "Charlie Worsham feat. Kip Moore",
+        "file": "music-content/compositions/charlie-worsham-feat.-kip-moore-kiss-like-you-dance.mp3"
+      },
+      {
+        "id": 167,
+        "title": "Texas Hold 'Em",
+        "artist": "Beyonce",
+        "file": "music-content/compositions/beyonce-texas-hold-em.mp3"
+      },
+      {
+        "id": 168,
+        "title": "Jolene",
+        "artist": "Beyonce",
+        "file": "music-content/compositions/beyonce-jolene.mp3"
+      },
+      {
+        "id": 169,
+        "title": "Religiously",
+        "artist": "Bailey Zimmerman",
+        "file": "music-content/compositions/bailey-zimmerman-religiously.mp3"
+      },
+      {
+        "id": 170,
+        "title": "See You Around",
+        "artist": "Ashley Cooke feat. Nate Smith",
+        "file": "music-content/compositions/ashley-cooke-feat.-nate-smith-see-you-around.mp3"
+      },
+      {
+        "id": 171,
+        "title": "The Only Time a Fisherman Tells the Truth",
+        "artist": "Slim Dusty",
+        "file": "music-content/compositions/slim-dusty-the-only-time-a-fisherman-tells-the-truth.mp3"
+      },
+      {
+        "id": 172,
+        "title": "Every Little Thing",
+        "artist": "Ruth Manning",
+        "file": "music-content/compositions/ruth-manning-every-little-thing.mp3"
+      },
+      {
+        "id": 173,
+        "title": "Highland Girl",
+        "artist": "Nathan Evans",
+        "file": "music-content/compositions/nathan-evans-highland-girl.mp3"
+      },
+      {
+        "id": 174,
+        "title": "What Was It Like",
+        "artist": "Mary Chapin Carpenter",
+        "file": "music-content/compositions/mary-chapin-carpenter-what-was-it-like.mp3"
+      },
+      {
+        "id": 175,
+        "title": "Wish I Never Felt",
+        "artist": "Nate Smith",
+        "file": "music-content/compositions/nate-smith-wish-i-never-felt.mp3"
+      }
+    ]
+  },
+  {
+    "Hits of the 80s": [
+      {
+        "id": 176,
+        "title": "I Was Made for Lovin' You",
+        "artist": "Kiss",
+        "file": "music-content/compositions/kiss-i-was-made-for-lovin039-you.mp3"
+      },
+      {
+        "id": 177,
+        "title": "Voyage Voyage",
+        "artist": "Desireless",
+        "file": "music-content/compositions/desireless-voyage-voyage.mp3"
+      },
+      {
+        "id": 178,
+        "title": "Enjoy the Silence",
+        "artist": "Depeche Mode",
+        "file": "music-content/compositions/depeche-mode-enjoy-the-silence.mp3"
+      },
+      {
+        "id": 179,
+        "title": "Take My Breath Away",
+        "artist": "Berlin",
+        "file": "music-content/compositions/berlin-take-my-breath-away.mp3"
+      },
+      {
+        "id": 180,
+        "title": "Listen to Your Heart",
+        "artist": "Roxette",
+        "file": "music-content/compositions/roxette-listen-to-your-heart.mp3"
+      },
+      {
+        "id": 181,
+        "title": "Gimme Gimme Gimme (A Man After Midnight)",
+        "artist": "ABBA",
+        "file": "music-content/compositions/abba-gimme-gimme-gimme-a-man-after-midnight.mp3"
+      },
+      {
+        "id": 182,
+        "title": "Put Your Head on My Shoulder",
+        "artist": "Paul Anka",
+        "file": "music-content/compositions/paul-anka-put-your-head-on-my-shoulder.mp3"
+      },
+      {
+        "id": 183,
+        "title": "I Want It All",
+        "artist": "Queen",
+        "file": "music-content/compositions/queen-i-want-it-all.mp3"
+      },
+      {
+        "id": 184,
+        "title": "Every Time You Go Away",
+        "artist": "Paul Young",
+        "file": "music-content/compositions/paul-young-every-time-you-go-away.mp3"
+      },
+      {
+        "id": 185,
+        "title": "Dan Dan",
+        "artist": "Ricchi & Poveri",
+        "file": "music-content/compositions/ricchi-amp-poveri-dan-dan.mp3"
+      },
+      {
+        "id": 186,
+        "title": "Hands Up",
+        "artist": "Ottawan",
+        "file": "music-content/compositions/ottawan-hands-up.mp3"
+      },
+      {
+        "id": 187,
+        "title": "Marathon",
+        "artist": "Neoton Familia",
+        "file": "music-content/compositions/neoton-familia-marathon.mp3"
+      },
+      {
+        "id": 188,
+        "title": "Moonlight Shadow",
+        "artist": "Mike Oldfield",
+        "file": "music-content/compositions/mike-oldfield-moonlight-shadow.mp3"
+      },
+      {
+        "id": 189,
+        "title": "Agent of Liberty",
+        "artist": "Mike Mareen",
+        "file": "music-content/compositions/mike-mareen-agent-of-liberty.mp3"
+      },
+      {
+        "id": 190,
+        "title": "Bad",
+        "artist": "Michael Jackson",
+        "file": "music-content/compositions/michael-jackson-bad.mp3"
+      },
+      {
+        "id": 191,
+        "title": "Buona Sera Signorina",
+        "artist": "Mauro",
+        "file": "music-content/compositions/mauro-buona-siera-siniorina.mp3"
+      },
+      {
+        "id": 192,
+        "title": "I've Been Thinking About You",
+        "artist": "Londonbeat",
+        "file": "music-content/compositions/londonbeat-ive-been-thinking-about-you.mp3"
+      },
+      {
+        "id": 193,
+        "title": "High Society Girl",
+        "artist": "Laid Back",
+        "file": "music-content/compositions/laid-back-high-society-girl.mp3"
+      },
+      {
+        "id": 194,
+        "title": "Who Is the Fucking Alice",
+        "artist": "Gompie",
+        "file": "music-content/compositions/gompie-who-is-the-fucking-alice.mp3"
+      },
+      {
+        "id": 195,
+        "title": "Take Your Chance",
+        "artist": "Fun Factory",
+        "file": "music-content/compositions/fun-factory-take-your-chance.mp3"
+      },
+      {
+        "id": 196,
+        "title": "Change the World",
+        "artist": "Eric Clapton",
+        "file": "music-content/compositions/eric-clapton-change-the-world.mp3"
+      },
+      {
+        "id": 197,
+        "title": "All She Wants Is",
+        "artist": "Duran Duran",
+        "file": "music-content/compositions/duran-duran-all-she-wants-is.mp3"
+      },
+      {
+        "id": 198,
+        "title": "Kalimba de Luna",
+        "artist": "Toni Esposito",
+        "file": "music-content/compositions/toni-esposito-kalimba-de-luna.mp3"
+      },
+      {
+        "id": 199,
+        "title": "I'll Need You at Midnight",
+        "artist": "Smokie",
+        "file": "music-content/compositions/smokie-ill-need-you-at-midnight.mp3"
+      },
+      {
+        "id": 200,
+        "title": "One Night in Bangkok",
+        "artist": "CC Catch",
+        "file": "music-content/compositions/cc-catch-one-night-enough.mp3"
+      },
+      {
+        "id": 201,
+        "title": "You Might Think",
+        "artist": "The Cars",
+        "file": "music-content/compositions/cars-you-might-think.mp3"
+      },
+      {
+        "id": 202,
+        "title": "Strangers by Night",
+        "artist": "C.C. Catch",
+        "file": "music-content/compositions/c.c.-catch-strangers-by-night.mp3"
+      },
+      {
+        "id": 203,
+        "title": "Dancing in Shadows",
+        "artist": "C.C. Catch",
+        "file": "music-content/compositions/c.c.-catch-dancing-in-shadows.mp3"
+      },
+      {
+        "id": 204,
+        "title": "Don't Stop the Dance",
+        "artist": "Bryan Ferry",
+        "file": "music-content/compositions/bryan-ferry-dont-stop-the-dance.mp3"
+      },
+      {
+        "id": 205,
+        "title": "Touch Me",
+        "artist": "Samantha Fox",
+        "file": "music-content/compositions/samantha-fox-touch-me.mp3"
+      },
+      {
+        "id": 206,
+        "title": "Venus",
+        "artist": "Bananarama",
+        "file": "music-content/compositions/bananarama-venus.mp3"
+      },
+      {
+        "id": 207,
+        "title": "Dance with Me",
+        "artist": "Alphaville",
+        "file": "music-content/compositions/alphaville-dance-with-me.mp3"
+      },
+      {
+        "id": 208,
+        "title": "Piccolo Amore",
+        "artist": "Ricchi e Poveri",
+        "file": "music-content/compositions/ricchi-e-poveri-piccolo-amore.mp3"
+      },
+      {
+        "id": 209,
+        "title": "Dancing Queen",
+        "artist": "ABBA",
+        "file": "music-content/compositions/abba-dancing-queen.mp3"
+      },
+      {
+        "id": 210,
+        "title": "Loop Di Love",
+        "artist": "A La Carte",
+        "file": "music-content/compositions/a-la-carte-loop-di-love.mp3"
       }
     ]
   }
