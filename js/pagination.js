@@ -1,4 +1,4 @@
-import { displayItems } from "./global.search-input.js";
+import { displayItems } from "./global.music-results.js";
 import { setupPlayPauseListeners } from "./togglePlayPause.js";
 
 let currentPage = 1;

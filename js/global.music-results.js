@@ -9,8 +9,8 @@ async function loadCompositions() {
   const compositions = data.find((category) => category.All).All;
 
   displayItems(compositions);
-  setupPlayPauseListeners();
   initializePagination(compositions);
+  setupPlayPauseListeners();
 
   document
     .getElementById("searchButton")
@@ -27,10 +27,9 @@ async function loadCompositions() {
       }
     });
 
-  // Event listener for Favorites link
   document.getElementById("favorites").addEventListener("click", function () {
     if (!savedUserName) {
-      document.getElementById("searchResults").innerHTML =
+      document.getElementById("musicResults").innerHTML =
         "<div>You are not logged in. Please log in to view your favorites.</div>";
     } else {
       displayFavorites();
@@ -39,7 +38,7 @@ async function loadCompositions() {
 }
 
 function displayItems(itemsToDisplay, startIndex = 0) {
-  const resultsContainer = document.getElementById("searchResults");
+  const resultsContainer = document.getElementById("musicResults");
   resultsContainer.innerHTML = itemsToDisplay
     .map(
       (result, index) =>
@@ -48,8 +47,14 @@ function displayItems(itemsToDisplay, startIndex = 0) {
               <p class="music-title">${result.title}</p>
               <p class="music-artist">${result.artist}</p>
           </div>
-          <img src="music-content/favorites.png" class="favorites-btn" data-index="${startIndex + index}" data-title="${result.title}" data-artist="${result.artist}">
-          <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${startIndex + index}">
+          <img src="music-content/favorites.png" class="favorites-btn" data-index="${
+            startIndex + index
+          }" data-title="${result.title}" data-artist="${
+          result.artist
+        }" data-file="${result.file}">
+          <img src="music-content/play-icon.png" alt="Play Icon" class="play-icon" data-index="${
+            startIndex + index
+          }">
           <audio class="music-player" id="player-${startIndex + index}">
               <source src="${result.file}" type="audio/mpeg">
               Your browser does not support the audio element.
@@ -64,17 +69,19 @@ function displayItems(itemsToDisplay, startIndex = 0) {
       if (!savedUserName) {
         alert("Log in first");
       } else {
-        toggleFavorite(btn.dataset.title, btn.dataset.artist);
+        toggleFavorite(btn.dataset.title, btn.dataset.artist, btn.dataset.file);
       }
     });
   });
+
+  setupPlayPauseListeners();
 }
 
 function search(compositions) {
   const searchInput = document
     .getElementById("searchInput")
     .value.toLowerCase();
-  const resultsContainer = document.getElementById("searchResults");
+  const resultsContainer = document.getElementById("musicResults");
 
   if (!searchInput.trim()) {
     resultsContainer.innerHTML = "<div>Please enter a search query</div>";
@@ -92,18 +99,18 @@ function search(compositions) {
   }
 }
 
-function toggleFavorite(title, artist) {
+function toggleFavorite(title, artist, file) {
   const favorites = getFavorites();
-  const key = `${title}-${artist}`;
-  
+  const key = `${title}-${artist}-${file}`;
+
   if (favorites[key]) {
     delete favorites[key];
     alert("This composition was deleted from your favorites.");
   } else {
-    favorites[key] = { title, artist };
+    favorites[key] = { title, artist, file };
     alert("This composition was added to your favorites.");
   }
-  
+
   localStorage.setItem("favorites", JSON.stringify(favorites));
   displayFavorites();
 }
@@ -113,18 +120,21 @@ function getFavorites() {
   return favorites ? JSON.parse(favorites) : {};
 }
 
-function displayFavorites() {
+function displayFavorites(startIndex = 0) {
   const favorites = getFavorites();
-  const resultsContainer = document.getElementById("searchResults");
+  const resultsContainer = document.getElementById("musicResults");
 
   if (Object.keys(favorites).length > 0) {
-    const favoritesCompositions = Object.values(favorites).map(item => ({
-      title: item.title,
-      artist: item.artist,
-      file: `music-content/compositions/${item.file}`, // Example path
-    }));
+    const favoritesCompositions = Object.values(favorites).map(
+      (item, index) => ({
+        title: item.title,
+        artist: item.artist,
+        file: item.file,
+      })
+    );
 
-    displayItems(favoritesCompositions);
+    displayItems(favoritesCompositions, startIndex);
+    initializePagination(favoritesCompositions);
   } else {
     resultsContainer.innerHTML =
       "<div>There is no composition added to your favorites.</div>";

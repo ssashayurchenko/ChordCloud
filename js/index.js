@@ -1,5 +1,5 @@
 function init() {
-  import("./global.search-input.js");
+  import("./global.music-results.js");
   import("./register-form.js");
   import("../myformproject/server.js");
   import("./burger-menu.js");

@@ -29,7 +29,7 @@
   background-color: var(--hover-color);
 }
 
-#searchResults {
+#musicResults {
   font-family: var(--font-family-second);
   padding-top: 150px;
   justify-content: flex-start;
@@ -37,19 +37,19 @@
 }
 
 @media (max-width: 800px) {
-  #searchResults {
+  #musicResults {
     margin-right: 10%;
   }
 }
 
 @media (min-width: 800px) {
-  #searchResults {
+  #musicResults {
     margin-right: 20%;
   }
 }
 
 @media (min-width: 1200) {
-  #searchResults {
+  #musicResults {
     margin-right: 30%;
   }
 }

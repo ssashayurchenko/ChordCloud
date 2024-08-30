@@ -29,6 +29,7 @@ function showModal() {
     userNameDisplay.style.display = "none";
     localStorage.removeItem("registeredUserName");
     localStorage.removeItem("favorites"); // Clear favorites on logout
+    window.location.reload();
   };
   cancelBtn.onclick = function () {
     logOutModal.style.display = "none";
@@ -88,12 +89,12 @@ registerForm.addEventListener("submit", function (event) {
     registrationModal.style.display = "none";
     closeModalWindow();
     alert(`Registration successful! ${userName} enjoy your music!`);
+    window.location.reload();
     openModal.style.display = "none";
     userNameDisplay.innerHTML = `<div>${userName}</div>`;
     userNameDisplay.style.display = "block";
     closeModal.style.display = "block";
   }
 });
-
 
 export { savedUserName };
